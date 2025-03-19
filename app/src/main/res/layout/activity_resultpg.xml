@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/fontb"
+        android:text="Candidate 1: 0 votes"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/fontb"
+        android:text="Candidate 2: 0 votes"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Candidate 3: 0 votes"
+        android:textSize="20sp"
+        android:fontFamily="@font/fontb"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="183dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fontb"
+        android:text="Total Votes: 0"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Back"
+        android:textSize="25dp"
+        android:layout_marginTop="100sp"
+        android:fontFamily="@font/fontc"
+        android:backgroundTint="@color/Blue"/>
+</LinearLayout>
